@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: gray;
+    width: 100%;
+}
+
+footer img {
+    margin: 10px 50px;
+}
+
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.group {
+    padding: 50px;
+    text-align: center;
+}
+
+.navigation li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1040px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
